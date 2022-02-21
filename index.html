@@ -4,19 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <meta name="" content="">
     <title>Fibonnanci</title>
     <link rel="stylesheet" href="css/main.css">
 
 </head>
 <body>
-    <header><h1>Encabezado</h1></header>
+    <header><h1>Sucesión de Fibonacci</h1></header>
     <main>
-        <p>Cada nuevo término en la sucesión de Fibonacci se genera sumando los dos términos anteriores. Al comenzar con 1 y 2, los primeros 10 términos serán:
+        <p>Iniciaremos con el número 0 y 1. Crearemos un nuevo termino con la suma de los dos anteriores. 
+         <br>Los primeros 10 términos serán:
         </p>
          <p>   1, 2, 3, 5, 8, 13, 21, 34, 55, 89, ...</p>
             
            <p> Al considerar los términos en la sucesión de Fibonacci cuyos valores no superan los cuatro millones, encuentre la suma de los términos de valor par.</p>
+
+           <ol>
+               <li>Guarda termino previo que es 0.</li>
+               <li>Guarda termino actual que es 1.</li>
+               <li>Guarda termino actual y previo en una lista.</li>
+               <li>Genera un nuevo número  sumando termino previo al actual.</li>
+               <li>Remplaza el valor de termino previo por actual.</li>
+               <li>Remplaza termino actual por el obtenido en el último cálculo.</li>
+               <li>Suma termino actual a sumatorio de términos.</li>
+               <li>Guarda termino actual en la lista.</li>
+               <li>Cuando el termino sea 4000 suma todos los términos conseguidos.</li>
+               <li>Imprime la suma de los términos guardados.</li>
+               <li>Imprime todos los términos conseguidos.</li>
+           </ol>
+           <code><pre>
+               
+           </pre></code>
     </main>
     <script src="js/main.js"></script>
 </body>
