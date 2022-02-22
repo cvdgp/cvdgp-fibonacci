@@ -12,3 +12,12 @@ font-size: 1.5em;
     padding: 0.3em;
     
 }
+.contenedor{
+    display: grid;
+    grid-template-columns: 20px 80%;
+    grid-gap: 5%;
+}
+.check{
+    width: 20px;
+    background: red;
+}
