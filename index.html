@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="" content="">
     <title>Fibonnanci</title>
+    <!-- boostrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+    crossorigin="anonymous">
+    <!-- boostrasp js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/main.css">
 
 </head>
@@ -24,23 +32,18 @@
            <i class="formula"> a<sub>n</sub>=a<sub>n-2</sub>+a<sub>n-1</sub></i>
            <p>En la siguiente fórmula a es el termino, n será el número del termino.</p>
            
-           <div class="contenedor">
-                <input type="checkbox" class="check"><label>Guarda termino previo que es 0.</label>
-                <input type="checkbox" class="check"><label>Guarda termino actual que es 1.</label>
-                <input type="checkbox" class="check"><label>Guarda termino actual y previo en una lista.</label>
-                <input type="checkbox" class="check"> <label>Genera un nuevo número  sumando termino previo al actual.</label>
-                <input type="checkbox" class="check"><label>Remplaza el valor de termino previo por actual.</label>
-                <input type="checkbox" class="check"><label>Remplaza termino actual por el obtenido en el último cálculo.</label>
-                <input type="checkbox" class="check"><label>Suma termino actual a sumatorio de términos.</label>
-                <input type="checkbox" class="check"><label>Guarda termino actual en la lista.</label>
-                <input type="checkbox" class="check"><label>Cuando el termino sea 4000 suma todos los términos conseguidos.</label>
-                <input type="checkbox" class="check"><label>Imprime la suma de los términos guardados.</label>
-                <input type="checkbox" class="check"><label>Imprime todos los términos conseguidos.</label>
+           <div id="cargador"><!-- aquí cargan los datos de js --></div>
+
+            <div>
+
             </div>
            <code><pre>
 
            </pre></code>
     </main>
+    <footer>
+        cvdgp
+    </footer>
     <script src="js/main.js"></script>
 </body>
 </html>
