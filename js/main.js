@@ -1,7 +1,4 @@
 
-/**
- an = an-2 + an-1
- */
 /************variables para cargar los checkbos con boostrap****************/
 const cargador = document.getElementById("cargador");
 let listaEnumerada = [  "Guarda termino previo que es 0.",
@@ -21,9 +18,13 @@ let listaEnumerada = [  "Guarda termino previo que es 0.",
 let txt ="Secuencia para resolver problema:";
 /***************************************************************/
 /***************variables para resolber Fibonacci**************/
-let an, anMenos1, anMenos2;
-let listaTerminos = [];
 
+
+let an, 
+    anMenos1 = 0 , 
+    anMenos2 = 1 ,
+    suma = anMenos2;
+let listaTerminos = [anMenos1 , anMenos2 ];
 
 
 
@@ -43,14 +44,23 @@ cargador.innerHTML =  txt;
 
 /*******************************************resolucion fibonacci***************************************/
 
+/**formula matemática   
+   /// listaTerminos[n] = listaTerminos[n-2] + listaTerminos[n-1]   ///  
+
+ * 
+ * */
 
 
 
+for (let n = 2 ; n < 100 ; n++){
+    listaTerminos[n] = listaTerminos[n-2] + listaTerminos[n-1];
+    suma +=  listaTerminos[n]; 
+}
 
 
 
 
 /**********************************************************************************************************/
 
-
-console.info("dentro js");
+console.info(suma);
+console.info(listaTerminos);
