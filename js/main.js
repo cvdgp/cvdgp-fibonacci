@@ -2,6 +2,8 @@
 /**
  an = an-2 + an-1
  */
+/************variables para cargar los checkbos con boostrap****************/
+const cargador = document.getElementById("cargador");
 let listaEnumerada = [  "Guarda termino previo que es 0.",
                         "Guarda termino actual que es 1.",
                         "Guarda termino actual y previo en una lista.",
@@ -15,12 +17,19 @@ let listaEnumerada = [  "Guarda termino previo que es 0.",
                         "Imprime todos los términos conseguidos."
 
                     ];
-const cargador = document.getElementById("cargador");
-let txt ="Mapa mental del programa";
 
+let txt ="Secuencia para resolver problema:";
+/***************************************************************/
+/***************variables para resolber Fibonacci**************/
 let an, anMenos1, anMenos2;
 let listaTerminos = [];
 
+
+
+
+
+
+/**********************carga de datos chackbox con boostrap********************************************/
 
 listaEnumerada.forEach( function(item){
     txt += `                   
@@ -31,6 +40,17 @@ listaEnumerada.forEach( function(item){
     `;
 });
 cargador.innerHTML =  txt;
+
+/*******************************************resolucion fibonacci***************************************/
+
+
+
+
+
+
+
+
+/**********************************************************************************************************/
 
 
 console.info("dentro js");

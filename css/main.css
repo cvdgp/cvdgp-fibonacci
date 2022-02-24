@@ -2,19 +2,26 @@ body{
 
 
 font-size: 1.5em;
+padding: 1em;
+
 
 }
 .formula{
     font-size: 1.5em;
-    margin-left: 1.2em;
-    border: 3px solid grey;
+    margin: 2em;
+    border: 4px solid black;
+    border-radius:10% ;
     padding: 0.3em;
+    background: grey;
     
 }
 .contenedor{
     display: grid;
     grid-template-columns: 20px 80%;
     grid-gap: 5%;
+}
+.contenedor-formula{
+    margin: 1.2em;
 }
 .check{
     width: 20px;
