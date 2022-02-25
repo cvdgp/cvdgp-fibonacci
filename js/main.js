@@ -7,9 +7,9 @@ let listaEnumerada = [  "Guarda termino previo que es 0.",
                         "Genera un nuevo número  sumando termino previo al actual.",
                         "Reemplaza el valor de termino previo por actual.",
                         "Reemplaza termino actual por el obtenido en el último cálculo.",
-                        "Suma termino actual a sumatorio de términos.",
+                        "Si el termino hayado es par sumalo al sumatorio de términos.",
                         "Guarda termino actual en la lista",
-                        "Cuando el termino sea 4000 suma todos los términos conseguidos.",
+                        "Cuando el valor del termino sea superior a 4.000.000 suma todos los términos conseguidos.",
                         "Imprime la suma de los términos guardados.",
                         "Imprime todos los términos conseguidos."
 
@@ -60,8 +60,6 @@ for (let n = 2 ; n < 100000 ; n++){
     if(listaTerminos[n] % 2 === 0 ) suma +=  listaTerminos[n]; 
 
     }  
-
-
 
 
 /**********************************************************************************************************/
