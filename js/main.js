@@ -15,7 +15,7 @@ let listaEnumerada = [  "Guarda termino previo que es 0.",
 
                     ];
 
-let txt ="Secuencia para resolver problema:";
+let txt ="<h2>Secuencia para resolver problema:</h2>";
 /***************************************************************/
 /***************variables para resolber Fibonacci**************/
 
