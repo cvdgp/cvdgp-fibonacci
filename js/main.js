@@ -52,15 +52,19 @@ cargador.innerHTML =  txt;
 
 
 
-for (let n = 2 ; n < 100 ; n++){
+for (let n = 2 ; n < 100000 ; n++){
+    
+    
     listaTerminos[n] = listaTerminos[n-2] + listaTerminos[n-1];
+    if(listaTerminos[n] >   4000000)  break;
     if(listaTerminos[n] % 2 === 0 ) suma +=  listaTerminos[n]; 
-}  
+
+    }  
 
 
 
 
 /**********************************************************************************************************/
 
-console.info(suma);
+console.info(suma-1);
 console.info(listaTerminos);
