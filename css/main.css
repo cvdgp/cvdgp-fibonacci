@@ -1,9 +1,8 @@
 body{
-
-
-font-size: 1.5em;
+background: url(./img/background_3.png);
+    
 padding: 1em;
-
+color: whitesmoke;
 
 }
 .formula{
@@ -28,12 +27,20 @@ padding: 1em;
     background:blueviolet;
 }
 #cargador{
-    margin: 1.2em;
+    padding: 10em;
+    margin-top: 1.2em;
+    background: url("./img/background_2.jpg") no-repeat;
+    border: 7px solid grey;
+    color: black;
+ 
 }
 #flexSwitchCheckDefault{
     margin-right: 1.5em;
 }
-#form-check-label,
-#form-check-input{
-    margin-top: 2em;
+
+
+.form-switch{
+    border: 1px solid black;
+    margin-top: 1em;
+    background: rgb(224, 211, 211);
 }
