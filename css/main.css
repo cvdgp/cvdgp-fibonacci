@@ -10,7 +10,7 @@ color: whitesmoke;
 
 }
 .formula{
-    font-size: 1.8em;
+
     font-family: 'Balsamiq Sans', cursiva;
     font-weight: bold;
     margin: 2em;
@@ -45,7 +45,7 @@ color: whitesmoke;
 }
 h2{
     color: blue;
-    font-size: 2em;
+    font-size: 1.2em;
     font-weight: bold;
 }
 #flexSwitchCheckDefault{
