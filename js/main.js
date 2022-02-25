@@ -54,8 +54,8 @@ cargador.innerHTML =  txt;
 
 for (let n = 2 ; n < 100 ; n++){
     listaTerminos[n] = listaTerminos[n-2] + listaTerminos[n-1];
-    suma +=  listaTerminos[n]; 
-}
+    if(listaTerminos[n] % 2 === 0 ) suma +=  listaTerminos[n]; 
+}  
 
 
 
