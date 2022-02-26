@@ -22,6 +22,9 @@ footer{
 main{
     margin: 1.5em;
 }
+h3{
+    color: aquamarine;
+}
 .formula{
 
     font-family: 'Balsamiq Sans', cursiva;
@@ -71,4 +74,8 @@ h2{
     border: 1px solid black;
     margin-top: 1em;
     background: rgb(224, 211, 211);
+    
+}
+#contenedor2>p{
+    font-size: 1.5em;
 }
