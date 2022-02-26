@@ -74,6 +74,8 @@ contenedor2.innerHTML = `
 <p style="color:blue">${txt_contador2}</p>
 
 `; 
+
+
 setInterval(()=>{
     let horaActual = new Date();
      hora.innerHTML =  `Sevilla ${horaActual.toLocaleDateString ()}  ${horaActual.toLocaleTimeString ()}`  ;
