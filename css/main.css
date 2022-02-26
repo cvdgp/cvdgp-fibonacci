@@ -79,3 +79,14 @@ h2{
 #contenedor2>p{
     font-size: 1.5em;
 }
+
+@media(max-width: 800px){
+
+    .formula{
+
+        font-size: 1.5em;
+        margin: 1em;
+
+    }
+
+}
