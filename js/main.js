@@ -1,6 +1,7 @@
 
 /************variables para cargar los checkbos con boostrap****************/
-const cargador = document.getElementById("cargador");
+const cargador   = document.getElementById("cargador");
+const hora       = document.getElementById("hora");
 let listaEnumerada = [  "Guarda termino previo que es 0.",
                         "Guarda termino actual que es 1.",
                         "Guarda termino actual y previo en una lista.",
@@ -73,5 +74,12 @@ contenedor2.innerHTML = `
 <p style="color:blue">${txt_contador2}</p>
 
 `; 
+setInterval(()=>{
+    let horaActual = new Date();
+     hora.innerHTML =  `Sevilla ${horaActual.toLocaleDateString ()}  ${horaActual.toLocaleTimeString ()}`  ;
+    
+    } , 1000
+
+);
 console.info(suma-1);
 console.info(listaTerminos);

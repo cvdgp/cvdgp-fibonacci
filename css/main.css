@@ -13,6 +13,9 @@ header{
     padding: 2.5em;
     color: greenyellow;
     margin: 1.5em;
+    display: flex;
+    justify-content: space-between;
+
 }
 footer{
     background: url("./img/background_footer_2.jpg") no-repeat;
@@ -24,6 +27,11 @@ main{
 }
 h3{
     color: aquamarine;
+}
+#hora{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgb(216, 228, 47);
 }
 .formula{
 
